@@ -4,61 +4,102 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bussiness Promotion</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&family=Montserrat:wght@100..900&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="./index.html">Product</a>
-        <ul>
-          <li><a href="./index.html">Product</a></li>
-          <li><a href="customers.html">Customers</a></li>
-          <li><a href="./pricing.html">Pricing</a></li>
-          <li><a href="#">Resources</a></li>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <a class="logo current" href="./index.html">Product</a>
+          <ul class="nav-list">
+            <li><a class="nav-link" href="./index.html">Product</a></li>
+            <li><a class="nav-link" href="customers.html">Customers</a></li>
+            <li><a class="nav-link" href="./pricing.html">Pricing</a></li>
+            <li><a class="nav-link" href="#">Resources</a></li>
+          </ul>
+        </nav>
+        <ul class="header-list-btn">
+          <li><button class="header-btn sign-in-btn">Sign In</button></li>
+          <li><button class="header-btn sign-up-btn">Sign Up</button></li>
         </ul>
-      </nav>
-      <ul>
-        <li><button>Sign In</button></li>
-        <li><button>Sign Up</button></li>
-      </ul>
+      </div>
     </header>
     <main>
       <!-- ---------------------------------------------------------------------------------HERO section -->
-      <section>
-        <h1>Work at the speed of thought</h1>
-        <p>
-          Tools, tutorials, design and innovation experts, all in one place! The
-          most intuitive way to imagine your next user experience.
-        </p>
-        <ul>
-          <li><button type="submit">Get started</button></li>
-          <li><button type="submit">Watch the Video</button></li>
-        </ul>
-        <img src="./images/hero-img.png" alt="work at the speed thought" />
+      <section class="hero">
+        <div class="container hero-container">
+          <div class="hero-wrap">
+            <h1 class="hero-title">Work at the speed of thought</h1>
+            <p class="hero-text">
+              Tools, tutorials, design and innovation experts, all in one place!
+              The most intuitive way to imagine your next user experience.
+            </p>
+            <ul class="hero-list-btn">
+              <li>
+                <button class="hero-btn start-btn" type="button">
+                  Get started
+                </button>
+              </li>
+              <li>
+                <button class="hero-btn watch-btn" type="button">
+                  Watch the Video
+                </button>
+              </li>
+            </ul>
+          </div>
+          <img src="./images/hero-img.png" alt="work at the speed thought" />
+        </div>
       </section>
 
       <!-- -------------------------------------------------------------------------------------Product section -->
 
-      <section>
-        <h2>Product was Built Specifically for You</h2>
-        <ul>
-          <li>
-            <h4>First click tests</h4>
-            <p>While most people enjoy casino gambling,</p>
-          </li>
-          <li>
-            <h4>Design surveys</h4>
-            <p>Sports betting, lottery and bingo playing for the fun</p>
-          </li>
-          <li>
-            <h4>Preference tests</h4>
-            <p>The Myspace page defines the individual.</p>
-          </li>
-          <li>
-            <h4>Five second tests</h4>
-            <p>Personal choices and the overall personality of the person.</p>
-          </li>
-        </ul>
-        <button>SIGN UP NOW</button>
+      <section class="product">
+        <div class="container">
+          <h2 class="product-title">
+            Product was Built Specifically <br />
+            for You
+          </h2>
+          <ul class="product-list">
+            <li>
+              <h4 class="product-item">First click tests</h4>
+              <p class="product-text">
+                While most people enjoy casino gambling,
+              </p>
+            </li>
+            <li>
+              <h4 class="product-item">Design surveys</h4>
+              <p class="product-text">
+                Sports betting, lottery and bingo playing for the fun
+              </p>
+            </li>
+            <li>
+              <h4 class="product-item">Preference tests</h4>
+              <p class="product-text">
+                The Myspace page defines the individual.
+              </p>
+            </li>
+            <li>
+              <h4 class="product-item">Five second tests</h4>
+              <p class="product-text">
+                Personal choices and the overall personality of the person.
+              </p>
+            </li>
+          </ul>
+          <button class="product-btn" type="button">SIGN UP NOW</button>
+        </div>
       </section>
 
       <!-- --------------------------------------------------------------------------------------Managment section -->
