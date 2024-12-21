@@ -166,11 +166,14 @@ img {
     font-size: 16px;
     text-decoration: underline;
     color: #02897a;
+    display: flex;
+    gap: 9px;
+    align-items: center;
 }
 
-/* .btn-icon {
+.btn-icon {
     fill: #02897a;
-} */
+}
 
 /* =====================================================================Product */
 
@@ -297,34 +300,29 @@ img {
     width: 529px;
 }
 
-.management-img {
-}
-
 /* --------------------------------------------------------Support */
 
-.support-wrap {
+.support {
+    padding: 50px 0;
+}
+
+.support .container {
     display: flex;
+    gap: 84px;
+    align-items: center;
 }
 
-.support-left {
-    margin-right: 84px;
-}
-
-.support-img {}
-
-.support-right {}
-
-.support-header {
+.support-title {
     font-weight: 600;
-    margin-top: 42px;
-    width: 430px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
     margin-bottom: 25px;
 }
 
-.support-span {
-    font-weight: 700;
+.support-title-part {
     font-size: 32px;
-    margin-bottom: 25px;
 }
 
 .support-text {
@@ -332,12 +330,83 @@ img {
     margin-bottom: 30px;
 }
 
-.support-list {}
-
-.support-item {
-    line-height: 1.625;
-    padding-bottom: 25px;
-    width: 400px;
+.support-list {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
 }
 
-.support-icon
+.support-item {
+    display: flex;
+    gap: 30px;
+    align-content: center;
+}
+
+.support-icon-wrap {
+    border: 2.92px solid #fff;
+    border-radius: 14px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.support-icon {
+    fill: #fff;
+}
+
+.support-icon-first {
+    background: #f90;
+}
+
+.support-icon-second {
+    background: #f03e3d;
+}
+
+.support-icon-third {
+    background: #4d8dff;
+}
+
+.support-desc {
+    line-height: 1.625;
+    max-width: 385px;
+}
+/* -------------------------------------------------collaboration section */
+
+.collaboration-wrap {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 84px;
+}
+
+.collaboration-title {
+    margin-top: 41px;
+    margin-bottom: 25px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.collaboration-span {
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+.collaboration-text {
+    line-height: 1.625;
+    margin-bottom: 30px;
+}
+
+.collaboration-item-title {
+    font-weight: 600;
+    line-height: 1.625;
+    margin-bottom: 12px;
+}
+
+.collaboration-item-text {
+    line-height: 1.625;
+    margin-bottom: 12px;
+}
