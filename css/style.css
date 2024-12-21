@@ -352,6 +352,10 @@ img {
     align-items: center;
 }
 
+.support-descr {
+    width: 430px;
+}
+
 .support-icon {
     fill: #fff;
 }
