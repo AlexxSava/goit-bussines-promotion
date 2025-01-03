@@ -20,42 +20,78 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="./index.html">Product</a>
-        <ul>
-          <li><a href="./index.html">Product</a></li>
-          <li><a href="./customers.html">Customers</a></li>
-          <li><a href="./pricing.html">Pricing</a></li>
-          <li><a href="#">Resources</a></li>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <div class="logo-wrap">
+            <ul class="logo-list">
+              <li class="logo-item">
+                <a href="./index.html" class="logo-link">
+                  <svg class="icon-logo" width="40" height="36">
+                    <use href="./images/icons.svg#logo"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="logo-item">
+                <a href="./index.html" class="logo-link-text">Product</a>
+              </li>
+            </ul>
+          </div>
+          <ul class="nav-list">
+            <li><a class="nav-link current" href="./index.html">Product</a></li>
+            <li><a class="nav-link" href="customers.html">Customers</a></li>
+            <li><a class="nav-link" href="./pricing.html">Pricing</a></li>
+            <li><a class="nav-link" href="#">Resources</a></li>
+          </ul>
+        </nav>
+        <ul class="header-list-btn">
+          <li><button class="header-btn sign-in-btn">Sign In</button></li>
+          <li><button class="header-btn sign-up-btn">Sign Up</button></li>
         </ul>
-      </nav>
-      <ul>
-        <li><button>Sign In</button></li>
-        <li><button>Sign Up</button></li>
-      </ul>
+      </div>
     </header>
     <main>
-      <!--------------------------------------------------------------------------------CLients section  -->
+      <!-- CLients section =====================================================================================-->
 
-      <section>
-        <h2>Our Clients</h2>
-        <ul>
-          <li><img src="./images/logo-airbnb.png" alt="logo airbnb" /></li>
-          <li><img src="./images/logo-google.png" alt="logo google" /></li>
-          <li><img src="./images/logo-mcsoft.png" alt="logo mcsoft" /></li>
-          <li><img src="./images/logo-fedex.png" alt="logo fedex" /></li>
-        </ul>
+      <section class="clients">
+        <div class="container">
+          <h2 class="clients-title">Our Clients</h2>
+          <ul class="clients-list">
+            <li class="clients-item">
+              <a href="http://airbnb.com" class="clients-link">
+                <img src="./images/logo-airbnb.png" alt="logo airbnb" />
+              </a>
+            </li>
+            <li class="clients-item">
+              <a href="http://google.com" class="clients-link">
+                <img src="./images/logo-google.png" alt="logo google" />
+              </a>
+            </li>
+            <li class="clients-item">
+              <a href="http://microsoft.com" class="clients-link">
+                <img src="./images/logo-mcsoft.png" alt="logo mcsoft" />
+              </a>
+            </li>
+            <li class="clients-item">
+              <a href="http://fedex.com" class="clients-link">
+                <img src="./images/logo-fedex.png" alt="logo fedex" />
+              </a>
+            </li>
+          </ul>
+        </div>
       </section>
 
-      <!---------------------------------------------------------------------------------Choose section -->
-      <section>
-        <h2>Why Choose Product?</h2>
-        <ul>
-          <li>
-            <img src="./images/icon-1.png" alt="cursor icon" />
-            <h3>Special Business</h3>
-            <p>
+      <!-- Choose section ====================================================================================-->
+
+      <section class="why-us">
+        <h2 class="why-us-title">Why Choose Product?</h2>
+        <ul class="why-us-list">
+          <li class="why-us-item">
+            <svg class="why-us-icons" width="12" height="18">
+              <use href="./images/icons.svg#untitled3"></use>
+            </svg>
+            <h3 class="why-us-list-title">Special Business</h3>
+            <p class="why-us-list-txt">
               Product helps you see how many more days you need to work to reach
               your financial goal for the month and year. Product helps you see
               how many more days you need to work to reach your financial goal
@@ -65,7 +101,9 @@
             </p>
           </li>
           <li>
-            <img src="./images/icon-2.png" alt="icon" />
+            <svg class="why-us-icons" width="18" height="18">
+              <use href="./images/icons.svg#untitled2"></use>
+            </svg>
             <h3>Instant Result</h3>
             <p>
               Product helps you see how many more days you need to work to reach
@@ -77,7 +115,9 @@
             </p>
           </li>
           <li>
-            <img src="./images/icon-2.png" alt="heart icon" />
+            <svg class="why-us-icons" width="16" height="18">
+              <use href="./images/icons.svg#untitled4"></use>
+            </svg>
             <h3>Fastest way to organize</h3>
             <p>
               Product helps you see how many more days you need to work to reach
@@ -91,7 +131,7 @@
         </ul>
       </section>
 
-      <!---------------------------------------------------------------------------------------------Product section  -->
+      <!-- Product section ===========================================================================-->
       <section>
         <h2></h2>
         <ul>
@@ -128,7 +168,7 @@
         <button type="submit">Get in touch with us</button>
       </section>
 
-      <!--------------------------------------------------------------------------------------Offers section  -->
+      <!-- Offers section ========================================================================================-->
       <section>
         <h2></h2>
         <ul>
@@ -151,7 +191,7 @@
         </ul>
       </section>
 
-      <!-----------------------------------------------------------------------------------------------Promo section -->
+      <!-- Promo section =====================================================================================-->
       <section>
         <h2>Promo</h2>
         <p>Join 100 Compannies who boost their business with Product</p>
@@ -180,4 +220,3 @@
     </footer>
   </body>
 </html>
-h
