@@ -979,7 +979,166 @@ img {
 }
 
 .why-us-item {
-    width: calc((100% - 2 * 30px) / 3);
+    width: calc((100% - 60px) / 3);
+    border: 1px solid #dedede;
+    border-radius: 10px;
+    padding: 32px 38px 34px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+.why-us-box {
+    border-radius: 19px;
+    width: 54px;
+    height: 54px;
+    background: #02897a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.why-us-item .why-us-box {
+    margin-bottom: 32px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+     rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.why-us-item:last-child .why-us-box {
+    background-color: #4d8dff;
+}
+
+.why-us-item:last-child .why-us-box {
+    color: #f03e3d;
+}
+.why-us-icons {
+    fill: #fff;
+}
+
+.why-us-list-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.375;
+    margin-bottom: 16px;
+}
+
+.why-us-list-txt {
+    line-height: 1.6875;
+    letter-spacing: 0.01em;
+}
+
+/* Product================================================ */
+
+.howitwork {
+    margin: 51px  0 115px;
+}
+
+.howitwork-title {
+    font-weight: 700;
+    font-size: 34px;
+    text-align: center;
+    margin-bottom: 73px;
+}
+
+.howitwork-list {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    margin-bottom: 77px;
+
+}
+
+.howitwork-item {
+    display: flex;
+    flex-direction: row;
+}
+
+.howitwork-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.howitwork-img {
+    margin-right: 89px;
+}
+
+.howitwork-txt {
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+
+.howitwork-list-title {
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.howitwork-text {
+    line-height: 1.75;
+    max-width: 438px;
+}
+
+.howitwork-btn {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 8px;
+    width: 224px;
+    height: 44px;
+    background-color: #02897a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.howitwork-list:nth-child(2) .howitwork-wrap {
+    margin-right: 89px;
+}
+
+/* Offer ========================================== */
+
+.offer {
+    padding: 35px 45px;
+    margin-bottom: 150px;
+}
+
+.offer-title {
+    font-weight: 700;
+    font-size: 32px;
+    margin: 0 auto;
+    text-align: center;
+    width: 537px;
+    margin-bottom: 93px;
+}
+
+.offer-list {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 325px;
+}
+
+.offer-img {
+    margin: 0 auto;
+    margin-bottom: 27px;
+}
+
+.offer-list-title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.16;
+    color: #000;
+    margin-bottom: 16px;
+}
+
+.offer-list-text {
+    font-size: 18px;
+    line-height: 1.77;
+}
+
 
 /* #endregion customers.html */
